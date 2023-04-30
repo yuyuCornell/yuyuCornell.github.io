@@ -1,4 +1,4 @@
-BaseURL: "https://yuyuCornell.github.io/"
+BaseURL: "https://yuyucornell.github.io/"
 title: "Yu Zhang's Resume"
 theme: "terminalCV"
 
@@ -17,7 +17,7 @@ params:
       profession: "Financial Engineering"
       location: "Ithaca, NY"
       email: "yz2846@cornell.edu"
-      homelink: "https://yuyuCornell.github.io/"
+      homelink: "https://yuyucornell.github.io/"
       description: "Master of Engineering in Financial Engineering from Cornell University"
 
   social:
