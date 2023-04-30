@@ -17,7 +17,7 @@ params:
       profession: "Financial Engineering"
       location: "Ithaca, NY"
       email: "yz2846@cornell.edu"
-      homelink: "https://yuyucornell.github.io/"
+      homelink: "https://yuyuCornell.github.io/"
       description: "Master of Engineering in Financial Engineering from Cornell University"
 
   social:
