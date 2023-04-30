@@ -1,0 +1,111 @@
+BaseURL: "https://yuzhang.github.io"
+title: "Yu Zhang's Resume"
+theme: "terminalCV"
+
+params:
+  description: "Yu Zhang's Online Resume"
+  prompt: "newuser@yuzhang-resume"
+  greeting: | 
+    Welcome to Yu Zhang's online resume
+
+    Type 'help' for a list of available commands
+
+  whois: 
+      name: "Yu Zhang"
+      profession: "Financial Engineering"
+      location: "Ithaca, NY"
+      email: "yz2846@cornell.edu"
+      homelink: "https://yuzhang.github.io"
+      description: "Master of Engineering in Financial Engineering from Cornell University"
+
+  social:
+    - name: "LinkedIn"
+      url: "www.linkedin.com/in/curtis-yu-zhang"
+    - name: "Wechat"
+      url: "yz614920316"
+    - name: "Email"
+      url: "yz2846@cornell.edu"
+
+  workexp:
+    - jobTitle: "Part-Time Research Assistant"
+      company: "Rebellion Research"
+      location: "New York (Remote), US"
+      date: "July to August 2022"
+      description: |
+        - Developed a monthly rebalanced long-short trading strategy of Russell 3000 stocks with 40+ factors based on ML techniques such as Linear Regression and Decision Trees
+        - Applied machine learning methods such as PCA for dimension reduction and K-Means for Clustering
+        - Performed portfolio optimization using methods such as Mean-Variance and Black-Litterman optimizations
+        - Compiled investment reports on the energy sector and copper prices using fundamental and technical analysis in Python. Published reports on Rebellion TV
+
+    - jobTitle: "Quantitative Finance Intern"
+      company: "Wisehedge Asset Management"
+      location: "Shanghai, CN"
+      date: "Jan. to June 2021"
+      description: |
+        - Designed an efficient high-frequency data pipeline to retrieve, clean, and store financial data in Python
+        - Tracked and observed ETF share changes in various sectors to analyze sector rotation in different market regimes
+        - Developed a calendar spread arbitrage strategy on 3 main stock index futures and increased the performance of the existing strategy by 2%; wrote scripts to back-test and analyze the performance of trading strategies
+
+  education:
+    - courseName: "Cornell University, College of Engineering"
+      date: "Expected December 2023"
+      description: "Master of Engineering in Financial Engineering, GPA: 3.30"
+
+    - courseName: "University of North Carolina at Chapel Hill"
+      date: "May 2022"
+      description: "Bachelor of Science in Statistics & Bachelor of Arts in Economics, Minor in Computer Science, GPA: 3.72"
+
+  skills:
+    - name: "Python (NumPy, Pandas, Scikit-Learn, Seaborn, cuML)"
+      percentage: 90
+
+    - name: "R"
+      percentage: 80
+
+    - name: "Java"
+      percentage: 70
+
+    - name: "SQL"
+      percentage: 70
+
+    - name: "C++"
+      percentage: 60
+
+  languages:
+    - name: "English"
+      percentage: 100
+
+  projects:
+    - title: "Smart Money Trading Strategy"
+      date: "Apr. 2023 – Present"
+      description: |
+        - Developed a strategy using SEC 13F and stock data based on extracted features using statistical methods
+        - Utilized cuML library and multi-threading in Python to accelerate data processing and feature extraction
+
+    - title: "Java Akari Puzzle Game"
+      date: "Apr. to May. 2022"
+      description: |
+        - Developed a puzzle game in Java using Model-View-Controller (MVC) design pattern with 20+ classes
+        - Employed JavaFX to develop a user-friendly Graphical User Interface (GUI)
+
+    - title: "Gold Price Forecasts & Analysis"
+      date: "Feb. to Apr. 2022"
+      description: |
+        - Built ARIMA and ADL models to predict gold prices in multiple currencies in R
+        - Studied GARCH effects of significant events such as the Financial Crisis of 2008 and COVID-19 on gold prices
+        - Analyzed investment risk by performing VaR analysis using historical, and Monte Carlo simulations
+
+  certifications:
+    - certName: "Oracle Database SQL Certified Associate"
+      company: "Oracle"
+      date: "Date of Completion"
+
+    - certName: "Bloomberg Market Concepts"
+      company: "Bloomberg"
+      date: "Date of Completion"
+
+  misc:
+    title: "Activities"
+    content: |
+      - Peer tutored 50+ students for Intro to Python, OOP in Java; Teaching Assistant of Intro to Econometrics at UNC
+      - Acoustics & electric guitar player; Amateur Blockchain product trader
