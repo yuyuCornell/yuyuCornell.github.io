@@ -6,7 +6,9 @@ params:
   description: "Yu Zhang's Online Resume"
   prompt: "newuser@yuzhang-resume"
   greeting: | 
-    Welcome to Yu Zhang's online resume
+    Welcome to Yu Zhang's online resume!
+
+    Glad to Meet You!
 
     Type 'help' for a list of available commands
 
@@ -15,7 +17,7 @@ params:
       profession: "Financial Engineering"
       location: "Ithaca, NY"
       email: "yz2846@cornell.edu"
-      homelink: "https://yuzhang.github.io"
+      homelink: "https://yuzhangcornell.github.io/"
       description: "Master of Engineering in Financial Engineering from Cornell University"
 
   social:
@@ -26,7 +28,7 @@ params:
     - name: "Email"
       url: "yz2846@cornell.edu"
 
-  workexp:
+  work:
     - jobTitle: "Part-Time Research Assistant"
       company: "Rebellion Research"
       location: "New York (Remote), US"
@@ -58,6 +60,7 @@ params:
   skills:
     - name: "Python (NumPy, Pandas, Scikit-Learn, Seaborn, cuML)"
       percentage: 90
+      color: blue
 
     - name: "R"
       percentage: 80
@@ -72,8 +75,22 @@ params:
       percentage: 60
 
   languages:
-    - name: "English"
+    - name: English
+      percentage: 75
+      color: Blue
+
+    - name: Chinese
       percentage: 100
+      color: red
+      description: $&*&%* (Guess what I'm saying)
+  
+  softskills:
+    - name: "Music!! I Love Music!!!!"
+      percentage: 100
+      color: red
+      description: |
+        - Spending 5 years playing electric and accoustic guitars
+        - Studying vocal music for 2 years
 
   projects:
     - title: "Smart Money Trading Strategy"
@@ -103,6 +120,7 @@ params:
     - certName: "Bloomberg Market Concepts"
       company: "Bloomberg"
       date: "Date of Completion"
+      description: the easiest certificate I've ever had
 
   misc:
     title: "Activities"
